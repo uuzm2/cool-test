@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+        <p>Initializing Secure System...</p>
+    </div>
+
+    <!-- Main UI -->
+    <div class="app-container" id="appContainer">
+        <header>
+            <h1>🔒 Secure Tool v3.0</h1>
+            <p class="tagline">Advanced Security Operations</p>
+        </header>
+
+        <div class="card">
+            <h2>🔎 IP Tracker</h2>
+            <input type="text" placeholder="Enter Target Username" id="usernameInput">
+            <button class="glow-button" id="trackButton">Track IP</button>
+            <div class="status" id="statusText">Ready</div>
+        </div>
+
+        <div class="card">
+            <h2>📜 Collected Data</h2>
+            <div class="data-box" id="dataBox"></div>
+        </div>
+
+        <footer>
+            <p>Made by <span class="highlight">Uuzm</span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
